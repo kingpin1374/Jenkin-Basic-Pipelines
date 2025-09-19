@@ -6,7 +6,10 @@ jobs:
     steps:
       - name: print greeting
         run: echo "hello all"
-      - name: Run multiple commands
-        run: |
-          echo "Hello Githb"
-          echo "my first test job on github action"
+  secondjob:
+    runs-on: ubuntu-latest
+      steps:
+        - name: Run multiple commands
+          run: |
+            echo "Hello Githb"
+            echo "my first test job on github action"
