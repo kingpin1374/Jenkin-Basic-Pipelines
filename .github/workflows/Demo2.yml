@@ -1,0 +1,15 @@
+name: My first work
+on: push
+jobs:
+  firstjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greeting
+        run: echo "hello all"
+  secondjob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run multiple commands
+        run: |
+          echo "Hello Githb"
+          echo "my first test job on github action"
