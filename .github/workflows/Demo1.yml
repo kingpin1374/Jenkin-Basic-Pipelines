@@ -9,7 +9,7 @@ jobs:
   secondjob:
     runs-on: ubuntu-latest
     steps:
-       - name: Run multiple commands
-         run: |
-           echo "Hello Githb"
-           echo "my first test job on github action"
+      - name: Run multiple commands
+        run: |
+          echo "Hello Githb"
+          echo "my first test job on github action"
