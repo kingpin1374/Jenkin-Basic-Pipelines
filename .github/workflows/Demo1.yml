@@ -8,8 +8,8 @@ jobs:
         run: echo "hello all"
   secondjob:
     runs-on: ubuntu-latest
-      steps:
-        - name: Run multiple commands
-          run: |
-            echo "Hello Githb"
-            echo "my first test job on github action"
+    steps:
+       - name: Run multiple commands
+         run: |
+           echo "Hello Githb"
+           echo "my first test job on github action"
